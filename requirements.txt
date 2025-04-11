@@ -1,4 +1,4 @@
-pandas==1.5.3
-streamlit==1.22.0
+pandas==2.0.3
+streamlit==1.27.0
 xmltodict==0.13.0
 lxml==4.9.2
