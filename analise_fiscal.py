@@ -7,7 +7,7 @@ import requests
 from fpdf import FPDF
 import zipfile
 import tempfile
-
+from bs4 import BeautifulSoup
 # ========== FUNÇÕES AUXILIARES ==========
 def extrair_dados_xml(xml_content):
     """Extrai dados fiscais de XML (NFe/CTe)"""
